@@ -1,7 +1,3 @@
-//client side js which is going to use in the server
-console.log('Client side javascript file is loaded')
-
-
 const weatherForm = document.querySelector('form')
 
 //to display info about what the user searches
