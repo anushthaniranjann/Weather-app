@@ -1,0 +1,64 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 15px auto;
+    padding: 0 16px;
+background-image: url("https://cardinalwxservice.com/wp-content/uploads/2018/09/09122018-Header.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(138, 182, 182, 0.295);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+   
+}
+
+footer {
+    color: #e94242;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: #112479;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+border: 1px solid #cccccc;
+padding: 8px;
+border-radius: 10px;
+color: #0b313d;
+
+}
+
+button {
+cursor: pointer;
+border-radius: 14px;
+border: 1px solid #888888;
+background: #888888;
+color: white;
+padding: 8px;
+}
