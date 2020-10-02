@@ -48,7 +48,6 @@ app.get('/weather', (req, res) => {
             error: 'You must provide an address'
         })
     }
-// to run the error msg if no address is provided={}
     geocode(req.query.address, (error, { latitude, longitude, location } = {}) => {
         if (error) {
             return res.send({ error })
@@ -68,7 +67,6 @@ app.get('/weather', (req, res) => {
     })
 })
 
-//to match every page that has not been matched so far
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
