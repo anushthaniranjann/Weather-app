@@ -12,6 +12,8 @@ background-image: url("https://cardinalwxservice.com/wp-content/uploads/2018/09/
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    align-items:center;
+    text-align: center;
 }
 
 .main-content {
@@ -35,6 +37,9 @@ h1{
     font-size: 64px;
     margin-bottom: 16px;
 }
+p{
+    font-size: 20px;
+}
 
 header a{
     color: #112479;
@@ -43,7 +48,7 @@ header a{
 }
 
 .portrait {
-    width: 250px;
+    width: 100px;
 }
 
 input {
@@ -61,4 +66,8 @@ border: 1px solid #888888;
 background: #888888;
 color: white;
 padding: 8px;
+}
+
+ul{
+    font-size: 20px;
 }
